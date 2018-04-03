@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185CD66C2073AF2700F9F017 /* 67.c in Sources */ = {isa = PBXBuildFile; fileRef = 185CD66B2073AF2700F9F017 /* 67.c */; };
 		E45B21AF1FE5481A00B10A5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E45B21AE1FE5481A00B10A5F /* AppDelegate.m */; };
 		E45B21B71FE5481A00B10A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E45B21B61FE5481A00B10A5F /* Assets.xcassets */; };
 		E45B21BD1FE5481A00B10A5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E45B21BC1FE5481A00B10A5F /* main.m */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185CD66A2073AF2700F9F017 /* 67.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 67.h; sourceTree = "<group>"; };
+		185CD66B2073AF2700F9F017 /* 67.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 67.c; sourceTree = "<group>"; };
 		E45B21AA1FE5481A00B10A5F /* 知乎日报.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "知乎日报.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45B21AE1FE5481A00B10A5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E45B21B61FE5481A00B10A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				E45B21C61FE5481A00B10A5F /* Json__Tests.m */,
+				185CD66A2073AF2700F9F017 /* 67.h */,
+				185CD66B2073AF2700F9F017 /* 67.c */,
 				E45B21C81FE5481A00B10A5F /* Info.plist */,
 			);
 			path = "Json解析Tests";
@@ -413,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185CD66C2073AF2700F9F017 /* 67.c in Sources */,
 				E45B21C71FE5481A00B10A5F /* Json__Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
